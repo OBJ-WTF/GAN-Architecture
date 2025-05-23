@@ -101,7 +101,7 @@ Consultez `requirements.txt` pour la liste complète des dépendances.
 AIp2p/
 ├── AIp2p.py              # Script principal
 ├── requirements.txt      # Dépendances Python
-├── models/              # Modèles pré-entraînés (optionnel)
+├── models/              # Modèles entraînés 
 ├── datasets/            # Vos datasets d'entraînement
 └── exports/             # Images générées et exportées
 ```
