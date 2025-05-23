@@ -64,6 +64,8 @@ Chargez un modèle .h5 via les boutons dédiés.
 
 Choisissez un dossier d’entrée et de cibles (format .png, aligné).
 
+⚠️ DATA SET : https://github.com/nate-peters/pix2pix-floorplans-dataset ⚠️ 
+
 ![2f764551a999](https://github.com/user-attachments/assets/3563eb47-cd95-471a-bd30-1d79dfcc322c)
 
 Spécifiez le nombre d’epochs.
