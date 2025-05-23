@@ -1,4 +1,4 @@
-AIp2p: Pix2Pix Floorplan Tool
+# AIp2p: Pix2Pix Floorplan Tool
 
 AIp2p est une interface graphique interactive pour dessiner des plans de bâtiments et les convertir automatiquement en images réalistes à l'aide de modèles Pix2Pix entraînés avec TensorFlow.
 
@@ -8,7 +8,7 @@ AIp2p est une interface graphique interactive pour dessiner des plans de bâtime
 
 
 
-Fonctionnalités principales
+# Fonctionnalités principales
 
 🧱 Canvas de dessin interactif : Dessinez des rectangles en glissant-déposant.
 
