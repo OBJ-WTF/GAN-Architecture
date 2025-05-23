@@ -1,6 +1,6 @@
 # AIp2p: Pix2Pix Floorplan Tool
 
-AIp2p est une interface graphique interactive pour dessiner des plans de bâtiments et les convertir automatiquement en images réalistes à l'aide de modèles Pix2Pix entraînés avec TensorFlow.
+AIp2p est une interface graphique interactive pour dessiner des plans de bâtiments à l'aide de modèles Pix2Pix.
 
 
 ![Capture d’écran 2025-05-23 105628](https://github.com/user-attachments/assets/da91b110-13ee-4903-9467-8238222f6b09)
@@ -23,7 +23,7 @@ AIp2p est une interface graphique interactive pour dessiner des plans de bâtime
 
 
 
-Installation
+# Installation
 
 Clonez ce dépôt :
 
@@ -56,19 +56,21 @@ Génération
 
 Chargez un modèle .h5 via les boutons dédiés.
 
-Cliquez sur "Générer" pour obtenir une image.
+1er modèle : Masse vers Couleur
+2eme modèle : Couleur vers Dessin 
 
-Deux modèles peuvent être enchaînés (2 passes).
 
-Entraînement
+# Entraînement
 
 Choisissez un dossier d’entrée et de cibles (format .png, aligné).
 
-Spécifiez le nombre d’époques.
+![2f764551a999](https://github.com/user-attachments/assets/3563eb47-cd95-471a-bd30-1d79dfcc322c)
+
+Spécifiez le nombre d’epochs.
 
 Lancez l’entraînement. Le modèle sera sauvegardé automatiquement.
 
-Dépendances principales
+# Dépendances principales
 
 Python 3.10+
 
@@ -82,11 +84,12 @@ tkinter
 
 ⚠️ CUDA 12 requis pour l'accélération GPU si disponible (voir requirements.txt pour détails).
 
-Crédits
+# Crédits
 
-Développé par OBJ.WTF pour un projet de génération architecturale assistée par IA. S'appuie sur Pix2Pix (TensorFlow Examples).
+Développé par OBJ.WTF pour un projet de génération architecturale assistée par IA. 
+S'appuie sur Pix2Pix (TensorFlow Examples) and basé sur les travaux de Stanislas Chaillou : https://github.com/StanislasChaillou
 
-Licence
+# Licence
 
 Ce projet est sous licence MIT.
 
