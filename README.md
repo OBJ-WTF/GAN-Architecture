@@ -136,16 +136,6 @@ AIp2p/
 └── exports/             # Images générées et exportées
 ```
 
-## 🤝 Contribuer
-
-Les contributions sont les bienvenues ! Pour contribuer :
-
-1. Fork le projet
-2. Créez une branche pour votre fonctionnalité (`git checkout -b feature/AmazingFeature`)
-3. Committez vos changements (`git commit -m 'Add AmazingFeature'`)
-4. Push vers la branche (`git push origin feature/AmazingFeature`)
-5. Ouvrez une Pull Request
-
 ##  Crédits
 
 **Développé par** : [OBJ.WTF](https://github.com/votreutilisateur) pour un projet de génération architecturale assistée par IA ( https://www.obj.wtf/ )
