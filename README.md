@@ -4,21 +4,21 @@ AIp2p est une interface graphique interactive pour dessiner des plans de bâtime
 
 ![Capture d'écran de l'interface AIp2p](https://github.com/user-attachments/assets/da91b110-13ee-4903-9467-8238222f6b09)
 
-## 🚀 Fonctionnalités principales
+##  Fonctionnalités principales
 
-- **🧱 Canvas de dessin interactif** : Dessinez des rectangles en glissant-déposant pour créer vos plans
+- **🖼️ Canvas de dessin interactif** : Dessinez des rectangles en glissant-déposant pour créer vos plans
 - **🎨 Système de couleurs codées** : Plusieurs couleurs disponibles pour encoder différentes classes (murs, ouvertures, pièces, etc.)
-- **🖼️ Import/Export d'images** : Importez une image PNG existante ou exportez vos créations
-- **🤖 Génération IA avancée** : Convertissez votre dessin en image réaliste via un modèle Pix2Pix (1 ou 2 passes)
+- **↕️ Import/Export d'images** : Importez une image PNG existante ou exportez vos créations
+- **🪄 Génération IA avancée** : Convertissez votre dessin en image réaliste via un modèle Pix2Pix (1 ou 2 passes)
 - **🔧 Entraînement intégré** : Entraînez vos propres modèles avec vos datasets personnalisés
 
-## 📋 Prérequis
+##  Prérequis
 
 - **Python 3.10+**
 - **CUDA 12** (recommandé pour l'accélération GPU)
 - **8 Go de RAM minimum** (16 Go recommandés pour l'entraînement)
 
-## 🛠️ Installation
+##  Installation
 
 ### 1. Cloner le dépôt
 ```bash
@@ -43,7 +43,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## 🎯 Utilisation
+##  Utilisation
 
 ### Lancement de l'application
 ```bash
@@ -68,7 +68,7 @@ python AIp2p.py
 2. **Configuration** : Spécifiez le dossier d'entrée, le dossier cible et le nombre d'epochs
 3. **Lancer** : Le modèle sera automatiquement sauvegardé à la fin de l'entraînement
 
-## 📊 Dataset recommandé
+##  Dataset recommandé
 
 ### Pix2Pix Floorplans Dataset
 **Source** : [nate-peters/pix2pix-floorplans-dataset](https://github.com/nate-peters/pix2pix-floorplans-dataset)
@@ -116,9 +116,9 @@ Les contributions sont les bienvenues ! Pour contribuer :
 4. Push vers la branche (`git push origin feature/AmazingFeature`)
 5. Ouvrez une Pull Request
 
-## 📝 Crédits
+##  Crédits
 
-**Développé par** : [OBJ.WTF](https://github.com/votreutilisateur) pour un projet de génération architecturale assistée par IA
+**Développé par** : [OBJ.WTF](https://github.com/votreutilisateur) pour un projet de génération architecturale assistée par IA ( https://www.obj.wtf/ )
 
 **Basé sur** :
 - [Pix2Pix](https://github.com/tensorflow/examples/tree/master/tensorflow_examples/models/pix2pix) (TensorFlow Examples)
