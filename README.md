@@ -66,6 +66,8 @@ Choisissez un dossier d’entrée et de cibles (format .png, aligné).
 
 ⚠️ DATA SET : https://github.com/nate-peters/pix2pix-floorplans-dataset ⚠️ 
 
+Ce jeu de données est dérivé d'images de plans d'étage pour de petites maisons de plain-pied provenant de HousePlans.com. Chaque image a été étiquetée manuellement à l'aide de Rhino et Grasshopper, puis exportée sous forme de paire d'images A/B pour une utilisation avec pix2pix. L'image A contient la forme de contour de chaque plan d'étage représentée comme une région noire pleine. L'image B contient le même contour, mais avec des régions codées par couleur qui correspondent aux différents types de pièces dans le plan
+
 ![2f764551a999](https://github.com/user-attachments/assets/3563eb47-cd95-471a-bd30-1d79dfcc322c)
 
 Spécifiez le nombre d’epochs.
