@@ -89,6 +89,27 @@ Ce dataset contient des images de plans d'étage pour petites maisons de plain-p
 
 ![Exemple du dataset](https://github.com/user-attachments/assets/3563eb47-cd95-471a-bd30-1d79dfcc322c)
 
+## 🧠 Recommandations d'entraînement Pix2Pix
+
+Ce tableau vous aide à calibrer votre entraînement selon la taille de votre dataset et vos ressources disponibles (RAM / VRAM).
+
+| 📂 **Taille du dataset** | 🔁 **Epochs recommandées** | ⏱️ **Durée estimée (CPU)** | 🎯 **Objectif / Niveau**            |
+|--------------------------|-----------------------------|-----------------------------|-------------------------------------|
+| ~100 paires              | 200 – 400                   | Longue (4–8 h)              | Test rapide / prototype             |
+| 500 paires               | 150 – 300                   | Moyenne (8–16 h)            | Projet perso solide                 |
+| 1 000 paires             | 100 – 200                   | Moyenne (6–12 h avec GPU)   | Bon équilibre qualité               |
+| 5 000+ paires            | 50 – 150                    | Longue (12–24 h)            | Projet pro / dataset varié          |
+| 10 000+ paires           | 30 – 100                    | Très long (24 h+)           | Qualité publication / recherche     |
+
+---
+
+## 📝 Conseils d'entraînement
+
+- **Surveillez la perte (`loss`)** mais jugez aussi **visuellement** la qualité des sorties.
+- Plus le **dataset est petit**, plus vous aurez besoin de **nombreux epochs** pour une bonne généralisation.
+- **Sauvegardez votre modèle régulièrement** (`checkpoint`) pour ne rien perdre.
+- **Commencez toujours en 256×256 px** pour tester la stabilité avant de passer à plus grand.
+
 ## 🔧 Dépendances techniques
 
 ### Principales librairies
