@@ -93,22 +93,25 @@ Ce dataset contient des images de plans d'étage pour petites maisons de plain-p
 
 Ce tableau vous aide à calibrer votre entraînement selon la taille de votre dataset et vos ressources disponibles.
 
-|  **Taille du dataset** |  **Epochs recommandées** |  **Durée estimée (CPU)** |  **Durée estimée (GPU)** |  **Objectif / Niveau**            |
-|--------------------------|-----------------------------|-----------------------------|-----------------------------|-------------------------------------|
-| ~100 paires              | 200 – 400                   | 4 – 8 h                     | 30 – 60 min                 | Test rapide / prototype             |
-| 500 paires               | 150 – 300                   | 8 – 16 h                    | 1 – 2 h                     | Projet perso solide                 |
-| 1 000 paires             | 100 – 200                   | 12 – 24 h                   | 2 – 4 h                     | Bon équilibre qualité               |
-| 5 000+ paires            | 50 – 150                    | 24 – 48 h                   | 4 – 8 h                     | Projet pro / dataset varié          |
-| 10 000+ paires           | 30 – 100                    | 48 h+                       | 6 – 12 h                    | Qualité publication / recherche     |
+| 📂 **Taille du dataset** | 🔁 **Epochs recommandées** | ⏱️ **Durée estimée (CPU)** | ⚡ **Durée estimée (GPU)** |
+|--------------------------|-----------------------------|-----------------------------|-----------------------------|
+| ~100 paires              | 200 – 400                   | 4 – 8 h                     | 30 – 60 min                 |
+| 500 paires               | 150 – 300                   | 8 – 16 h                    | 1 – 2 h                     |
+| 1 000 paires             | 100 – 200                   | 12 – 24 h                   | 2 – 4 h                     |
+| 5 000+ paires            | 50 – 150                    | 24 – 48 h                   | 4 – 8 h                     |
+| 10 000+ paires           | 30 – 100                    | 48 h+                       | 6 – 12 h                    |
 
 ---
 
-##  Conseils d'entraînement
+## 📝 Conseils d'entraînement
 
 - **Surveillez la perte (`loss`)** mais jugez aussi **visuellement** la qualité des sorties.
 - Plus le **dataset est petit**, plus vous aurez besoin de **nombreux epochs**.
 - **Sauvegardez le modèle régulièrement** (`checkpoint`) pour éviter toute perte.
 - Commencez avec des images **256×256 px**, puis augmentez si votre GPU le permet.
+
+
+⚙️ Besoin d’un script d’entraînement ? Consultez le dossier `train/` ou créez une [Issue](https://github.com/votreutilisateur/AIp2p/issues).
 
 ## 🔧 Dépendances techniques
 
