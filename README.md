@@ -20,13 +20,8 @@ Fonctionnalités principales
 
 🔧 Entraînement intégré : Entraînez vos propres modèles avec vos datasets.
 
-📋 Console de log intégrée : Affiche les sorties en temps réel dans l’interface.
 
-🧹 Suppression intuitive : Clic droit pour supprimer un élément.
 
-Captures d'écran
-
-(À compléter avec des screenshots du canvas, de la génération, etc.)
 
 Installation
 
