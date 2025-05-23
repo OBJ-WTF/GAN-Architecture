@@ -135,15 +135,7 @@ Les contributions sont les bienvenues ! Pour contribuer :
 
 ## 📄 Licence
 
-Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
+Ce projet est sous licence MIT. 
 
-## 🐛 Support et Issues
-
-Si vous rencontrez des problèmes ou avez des questions :
-1. Consultez les [Issues existantes](https://github.com/votreutilisateur/AIp2p/issues)
-2. Créez une nouvelle issue si nécessaire
-3. Fournissez des détails sur votre environnement (OS, version Python, GPU, etc.)
-
----
 
 ⭐ **N'hésitez pas à donner une étoile au projet si vous le trouvez utile !**
