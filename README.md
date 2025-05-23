@@ -16,7 +16,16 @@ AIp2p est une interface graphique interactive pour dessiner des plans de bâtime
 
 - **Python 3.10+**
 - **CUDA 12** (recommandé pour l'accélération GPU)
-- **8 Go de RAM minimum** (16 Go recommandés pour l'entraînement)
+  
+##  Tableau des besoins mémoire
+
+|  **Taille image** |  **Inférence – RAM** |  **Inférence – VRAM** |  **Entraînement – RAM** |  **Entraînement – VRAM** |
+|----------------------|------------------------|---------------------------|-----------------------------|------------------------------|
+| **256×256**          | 0.5 – 1 Go             | 0.5 – 1 Go                | 8 – 12 Go                   | 4 – 6 Go                     |
+| **512×512**          | 1 – 2 Go               | 1 – 2 Go                  | 12 – 16 Go                  | 6 – 8 Go                     |
+| **768×768**          | 2 – 3.5 Go             | 3 – 5 Go                  | 16 – 24 Go                  | 8 – 12 Go                    |
+| **1024×1024**        | 4 – 6 Go               | 6 – 8 Go                  | 24 – 32 Go                  | 10 – 14 Go                   |
+
 
 ##  Installation
 
