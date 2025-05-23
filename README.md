@@ -1,6 +1,6 @@
 # AIp2p: Pix2Pix Floorplan Tool
 
-AIp2p est une interface graphique interactive pour dessiner des plans de bâtiments à l'aide de modèles Pix2Pix basés sur l'intelligence artificielle.
+AIp2p est une interface graphique interactive pour dessiner des plans de bâtiments à l'aide de modèles Pix2Pix.
 
 ![Capture d'écran de l'interface AIp2p](https://github.com/user-attachments/assets/da91b110-13ee-4903-9467-8238222f6b09)
 
