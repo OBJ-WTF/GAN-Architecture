@@ -34,7 +34,7 @@ Créez et activez un environnement virtuel :
 
 python -m venv venv
 venv\Scripts\activate     # sous Windows
-# source venv/bin/activate  # sous Linux/macOS
+source venv/bin/activate  # sous Linux/macOS
 
 Installez les dépendances :
 
