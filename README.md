@@ -2,7 +2,7 @@
 
 AIp2p est une interface graphique interactive pour dessiner des plans de bâtiments à l'aide de modèles Pix2Pix.
 
-![Capture d'écran de l'interface AIp2p](https://github.com/user-attachments/assets/da91b110-13ee-4903-9467-8238222f6b09)
+![Capture d’écran 2025-05-23 113515](https://github.com/user-attachments/assets/c7e5a24d-5ee7-4ecc-b08f-26c991d6964f)
 
 ##  Fonctionnalités principales
 
