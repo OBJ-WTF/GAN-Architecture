@@ -83,7 +83,7 @@ tkinter
 
 Crédits
 
-Développé par Rémi pour un projet de génération architecturale assistée par IA. S'appuie sur Pix2Pix (TensorFlow Examples).
+Développé par OBJ.WTF pour un projet de génération architecturale assistée par IA. S'appuie sur Pix2Pix (TensorFlow Examples).
 
 Licence
 
