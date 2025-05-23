@@ -91,7 +91,7 @@ tkinter
 # Crédits
 
 Développé par OBJ.WTF pour un projet de génération architecturale assistée par IA. 
-S'appuie sur Pix2Pix (TensorFlow Examples) and basé sur les travaux de Stanislas Chaillou : https://github.com/StanislasChaillou
+S'appuie sur Pix2Pix (TensorFlow Examples) et basé sur les travaux de Stanislas Chaillou ( https://github.com/StanislasChaillou ) 
 
 # Licence
 
